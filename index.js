@@ -34,3 +34,5 @@ const corsOpts = {
 
 
 app.listen(PORT, () => console.group(`  Server Started On ${PORT} `));
+
+module.exports = app;
